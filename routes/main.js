@@ -4,7 +4,7 @@ var database = require('../model/database');
 var conn = db.getConnection(); 
 
 router.get('/', function (req, res) {
-	res.render('new_session');
+	res.render('main');
 });
 
 module.exports = router;

@@ -3,8 +3,9 @@ var router = express.Router();
 var database = require('../model/database');
 var conn = db.getConnection(); 
 
+
 router.get('/', function (req, res) {
-	res.render('new_session');
+	res.render('new_survey');
 });
 
 module.exports = router;
